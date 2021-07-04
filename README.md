@@ -5,8 +5,8 @@ pytorch==1.2.0
 ## Catalogue
 1. [Performance](#Performance)
 2. [Attention](#Attention)
-3. [How to predict](#How to predict)
-4. [How to train](#How to train)
+3. [How-to-predict](#How-to-predict)
+4. [How-to-train](#How-to-train)
 5. [Evaluate](#Evaluate)
 
 ## Performance
@@ -18,14 +18,14 @@ pytorch==1.2.0
 ## Attention
 In the model_data folder, our model Retinaface_mobilenet_FFPGAN.pth is there, which could be used for prediction directly.
 
-## How to predict
+## How-to-predict
 1. Run predict.py, and input  
 ```python
 img/timg.jpg
 ```  
 2. In the file predict.py, fps and video test can be set.  
 
-## How to train
+## How-to-train
 1. We used widerface dataset for training, and if you want to retrain, download the widerface and put it in the data folder.  
 2. Modify the parameters and run the train.py.
 3. We could get the model in the logs.  
